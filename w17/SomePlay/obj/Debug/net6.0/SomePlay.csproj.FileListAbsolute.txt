@@ -1,0 +1,15 @@
+/Users/admin/Documents/EDA/w17/SomePlay/bin/Debug/net6.0/SomePlay
+/Users/admin/Documents/EDA/w17/SomePlay/bin/Debug/net6.0/SomePlay.deps.json
+/Users/admin/Documents/EDA/w17/SomePlay/bin/Debug/net6.0/SomePlay.runtimeconfig.json
+/Users/admin/Documents/EDA/w17/SomePlay/bin/Debug/net6.0/SomePlay.dll
+/Users/admin/Documents/EDA/w17/SomePlay/bin/Debug/net6.0/SomePlay.pdb
+/Users/admin/Documents/EDA/w17/SomePlay/obj/Debug/net6.0/SomePlay.csproj.AssemblyReference.cache
+/Users/admin/Documents/EDA/w17/SomePlay/obj/Debug/net6.0/SomePlay.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Documents/EDA/w17/SomePlay/obj/Debug/net6.0/SomePlay.AssemblyInfoInputs.cache
+/Users/admin/Documents/EDA/w17/SomePlay/obj/Debug/net6.0/SomePlay.AssemblyInfo.cs
+/Users/admin/Documents/EDA/w17/SomePlay/obj/Debug/net6.0/SomePlay.csproj.CoreCompileInputs.cache
+/Users/admin/Documents/EDA/w17/SomePlay/obj/Debug/net6.0/SomePlay.dll
+/Users/admin/Documents/EDA/w17/SomePlay/obj/Debug/net6.0/refint/SomePlay.dll
+/Users/admin/Documents/EDA/w17/SomePlay/obj/Debug/net6.0/SomePlay.pdb
+/Users/admin/Documents/EDA/w17/SomePlay/obj/Debug/net6.0/SomePlay.genruntimeconfig.cache
+/Users/admin/Documents/EDA/w17/SomePlay/obj/Debug/net6.0/ref/SomePlay.dll

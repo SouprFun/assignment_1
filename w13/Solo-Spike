@@ -1,0 +1,85 @@
+import { useDispatch, useSelector } from "react-redux";
+import { useHistory } from 'react-router-dom';
+import { useState } from 'react';
+import Button from '@mui/material/Button';
+import Radio from '@mui/material/Radio';
+import RadioGroup from '@mui/material/RadioGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormControl from '@mui/material/FormControl';
+import FormLabel from '@mui/material/FormLabel';
+
+function Feeling() {
+    const history = useHistory();
+    const dispatch = useDispatch();
+    let [feeling, setFeeling] = useState(0)
+
+    function nextButton() {
+        if (feeling === 0) {
+            alert("please select a response")
+            return
+        }
+        console.log('in Feeling to understanding');
+        dispatch({ type: "FEELING", payload: feeling });
+        console.log("person is feeling:", feeling);
+        history.push('/Understanding')
+    }
+
+    return (
+        <div>
+            <div>
+                <h3>How are you feeling today?</h3>
+                <FormControl>
+                    <FormLabel id="demo-form-control-label-placement"></FormLabel>
+                    <RadioGroup
+                        row
+                        aria-labelledby="demo-form-control-label-placement"
+                        name="position"
+                        defaultValue="top"
+                    >
+                        <FormControlLabel
+                            value="1"
+                            control={<Radio />}
+                            label="1"
+                            labelPlacement="top"
+                            onChange={(e) => setFeeling(event.target.value)}
+                        />
+                        <FormControlLabel
+                            value="2"
+                            control={<Radio />}
+                            label="2"
+                            labelPlacement="top"
+                            onChange={(e) => setFeeling(event.target.value)}
+                        />
+                        <FormControlLabel
+                            value="3"
+                            control={<Radio />}
+                            label="3"
+                            labelPlacement="top"
+                            onChange={(e) => setFeeling(event.target.value)}
+                        />
+                        <FormControlLabel
+                            value="4"
+                            control={<Radio />}
+                            label="4"
+                            labelPlacement="top"
+                            onChange={(e) => setFeeling(event.target.value)}
+                        />
+                        <FormControlLabel
+                            value="5"
+                            control={<Radio />}
+                            label="5"
+                            labelPlacement="top"
+                            onChange={(e) => setFeeling(event.target.value)}
+                        />
+
+                    </RadioGroup>
+                </FormControl>
+
+            </div>
+            <div>
+                <Button variant="contained" color="primary" onClick={() => nextButton()}>Next</Button>
+            </div>
+        </div>
+    )
+}
+export default Feeling;
